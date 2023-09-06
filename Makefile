@@ -20,9 +20,10 @@ test_coverage:
 	@go test ./... -coverprofile=coverage.out
 
 help:
-	@echo Below are the commands provided by the Makefile file.
+	@echo Below are the commands provided by the `Makefile` file.
 	@echo Note: The commands are already arranged in the recommended execution order.
-	@echo `dep` - donwload go.mod dependicies. This is required command for a newly installed project.
+	@echo
+	@echo `dep` - download `go.mod` dependicies. This is required command for a newly installed project.
 	@echo `init` - download and start the MySQL server by Docker. This is required command for a newly installed project.
 	@echo `run` - start the gRPC server.
 	@echo `test` - run on the tests.
